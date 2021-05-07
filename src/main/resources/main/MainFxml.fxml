@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ControllerMain">
+    <Button fx:id="startButton" layoutX="15.0" layoutY="660.0" mnemonicParsing="false" onAction="#start" prefHeight="30.0" prefWidth="50.0" text="Inicio" />
+   <Canvas id="canvas" fx:id="canvas" height="630.0" layoutX="10.0" layoutY="10.0" width="1180.0" />
+   <ScatterChart id="grpah" fx:id="graph" layoutX="215.0" layoutY="644.0" prefHeight="300.0" prefWidth="970.0" title="Población">
+     <xAxis>
+       <CategoryAxis side="BOTTOM" />
+     </xAxis>
+     <yAxis>
+       <NumberAxis side="LEFT" />
+     </yAxis>
+   </ScatterChart>
+   <Button fx:id="stopButton" layoutX="15.0" layoutY="700.0" mnemonicParsing="false" onAction="#stop" prefHeight="30.0" prefWidth="50.0" text="Parar" />
+   <Button fx:id="restartButton" layoutX="80.0" layoutY="660.0" mnemonicParsing="false" onAction="#restart" prefHeight="30.0" prefWidth="70.0" text="Reiniciar" />
+   <Label id="fpsLabel" fx:id="fpsLabel" layoutX="15.0" layoutY="750.0" text="FPS">
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding></Label>
+   <Label fx:id="labelGrass" layoutX="14.0" layoutY="776.0" text="Number grass: ">
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Label>
+   <Label fx:id="labelSheep" layoutX="16.0" layoutY="803.0" text="Number sheep:">
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Label>
+   <Label fx:id="labelFoxes" layoutX="16.0" layoutY="830.0" text="Number foxes: ">
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Label>
+</AnchorPane>
