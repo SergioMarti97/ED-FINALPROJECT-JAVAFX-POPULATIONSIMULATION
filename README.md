@@ -3,3 +3,4 @@
 <p>Versión de java utilizada en el código fuente y compilación: java 8</p>
 <p>Utilización de la librería JavaFx. Desarrollado en IntellijIDEA.</p>
 <p>Autor: Sergio Martí Torregrosa. Gmail: sergio.martihee1997@gmail.com</p> 
+![alt text](https://github.com/SergioMarti97/ED-FINALPROJECT-JAVAFX-POPULATIONSIMULATION/src/main/resources/diagrams/Diagrama_Actividades.png)
